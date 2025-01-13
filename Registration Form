@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st project</title>
+    <style>
+       
+        label:hover{
+            color: red;
+        }
+        h2:hover{
+            text-decoration: underline;
+        }
+        input:active{
+            background-color:green;
+            color:black;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        <b>Registration Form</b>
+    </h2>
+    <br>
+    <form>
+        <input type="text"placeholder="username">
+        <br>
+        <br>
+        <input type="password"placeholder="password">
+        <br>
+        <br>
+    </form>
+        <h3>Select your class</h3>
+        <br>
+        <label for="id1">
+            <input type="radio"value="class 10th"name="class"id="id1">class 10th
+        </label>
+            <br>
+            <br>
+            <label for="id2">
+            <input type="radio"value="class 11th"name="class"id="id2">class 11th
+        </label>
+            <br>
+            <br>
+            <label for="id3">
+            <input type="radio"value="class 12th"name="class"id="id3">class 12th
+        </label>
+        <h3>Select Fav subject</h3>
+        <br>
+        <label for="id4">
+            <input type="checkbox"value="Maths"name="class"id="id4">Maths
+        </label>
+        <br>
+        <br>
+        <label for="id5">
+            <input type="checkbox"value="physics"name="class"id="id5">physics
+        </label>
+        <br>
+        <br>
+        <label for="id6">
+            <input type="checkbox"value="chemistry"name="class"id="id6">chemistry
+        </label>
+        <br>
+        <br>
+        <label for="id7">
+            <input type="checkbox"value="computer"name="class"id="id7">computer
+        </label>
+        <br>
+        <h3>select your city
+            <select name="city"id="city">
+                <option value="Bihar">Bihar</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="kolkata">kolkata</option>
+                <option value="pune">pune</option>
+                <option value="kota">kota</option>
+                <option value="jaipur">jaipur</option>
+                <option value="patna">patna</option>
+        </select>
+
+    </h3>
+    <h3>For quaries visit this site 
+        <a href="https://www.quora.com">Quora</a>
+    </h3>
+    <textarea name="feedback"id="101"placeholder="please give your valuable feedback here" rows="5"></textarea>
+    <br>
+    <input type="submit" value="submit" >    
+    <br>
+    <img src="https://media.istockphoto.com/id/1470218079/vector/completed-green-badge-label-of-mission-completed-isolated-on-white-flat-badge-banner-with.jpg?s=612x612&w=0&k=20&c=l4jcdcI_hgiRiPHVj3BeqPpSAn_cfTr-1YXdBISNq_Y="alt="good job">
+    <footer>
+        &copy; 2024 Registration form-Style Page. All rights reserved.
+    </footer>
+</body>
+</html>
