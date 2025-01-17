@@ -1,0 +1,26 @@
+@media(min-width:300px){
+    ul{
+    height:60px;
+    background-color: #AAB99A;
+    display: flex;
+    flex-direction: row-reverse;
+    }
+}
+li{
+    margin-left: 80px;
+    padding-top: 02px;
+    margin-right: 40px;
+}
+nav ul li a:hover{
+    color:rgb(227, 227, 50);
+    transition: color 0.3s ease;
+}
+footer{
+    height: 40px;
+    width:100%;
+    background-color: #FFF2C2;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+}
