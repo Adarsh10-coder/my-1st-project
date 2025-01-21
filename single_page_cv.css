@@ -16,9 +16,7 @@ header img {
 
 table {
     width: 100%;
-    border-collapse:border: 
-    /* margin-left: auto;
-    margin-right: auto; */
+    border-collapse:border;
 }
 
 table, th, td {
