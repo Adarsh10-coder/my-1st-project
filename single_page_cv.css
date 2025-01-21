@@ -1,0 +1,40 @@
+
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+header div {
+    text-align: center;
+}
+
+header img {
+    float: left;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse:border: 
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+pre {
+    font-family: serif;
+}
