@@ -1,5 +1,5 @@
 body{
-    background-image: url("/photos/8324.png");
+    background-image: url("/public/8324.png");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ pre{
     body{
         margin: 0;
         height: 100vh;
-        background-image: url("/photos/resu.webp");
+        background-image: url("/public/resu.webp");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

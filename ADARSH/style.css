@@ -5,7 +5,7 @@ h1{
   color:white;
   font-weight: bolder;
   box-shadow: 15px 10px 10px rgb(95, 94, 94);
-  background-image: url("/photos/project.avif");
+  background-image: url("/public/project.avif");
   background-size: contain;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -13,7 +13,7 @@ h1{
   margin-left: 460px;
 }
 body{
-    background-image: url("/photos/8324.png");
+    background-image: url("/public/8324.png");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -221,7 +221,7 @@ body{
         body{
             margin: 0;
             height: 100vh;
-            background-image: url("/photos/resu.webp");
+            background-image: url("/public/resu.webp");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
