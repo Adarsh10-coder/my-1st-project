@@ -1,11 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
-    <link rel="stylesheet"href="Portfolia.css">
 </head>
+<style>
+    body {
+        background-image: url("/ADARSH/assets/8324.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        margin-top: -40px;
+        transition: transform 1s ease-out;
+    }
+
+    a {
+        margin: 45px;
+        font-size: 22px;
+        color: white;
+    }
+
+    nav a:hover {
+        color: rgb(204, 124, 226);
+        transition: color 0.3s ease;
+        transform: scale(1.3);
+    }
+
+    h1 {
+        margin-left: 80px;
+        color: white;
+    }
+
+    .name {
+        color: rgb(161, 49, 192);
+        font-size: 50px;
+    }
+
+    h2 {
+        margin-left: 80px;
+        color: white;
+    }
+
+    #photo {
+        position: relative;
+        top: -200px;
+        left: 1000px;
+        filter: drop-shadow(10px 7px 10px rgb(155, 155, 155));
+        object-fit: cover;
+        animation: animateUser 4s linear infinite;
+    }
+
+    @keyframes animateUser {
+        50% {
+            right: 30px;
+            top: -120px;
+        }
+    }
+
+    /* #splash{
+    position: relative;
+    top: -200px; 
+    left: 1000px;
+    object-fit: cover;
+    filter: saturate(200%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    50%{
+        top:-120px;
+        right: -60px;
+    }
+}   
+*/
+    pre {
+        margin-top: -400px;
+        left: 80px;
+        font-size: 15px;
+        color: white;
+    }
+
+    #allbutton {
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: -30px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #button1 {
+        filter: drop-shadow(-12px -15px 0px rgb(204, 124, 226));
+        color: black;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: 2px solid black;
+        border-radius: 8px;
+        transition: all 0.3s ease-out;
+    }
+
+    #button1:hover {
+        filter: drop-shadow(0px 0px 0px rgb(204, 124, 226));
+        border-color: darkred;
+        background-color: rgb(204, 124, 226);
+
+    }
+
+    #button2 {
+        filter: drop-shadow(-12px -15px 0px rgb(204, 124, 226));
+        color: black;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: 2px solid black;
+        border-radius: 8px;
+        transition: all 0.3s ease-out;
+    }
+
+    #button2:hover {
+        filter: drop-shadow(0px 0px 0px rgb(204, 124, 226));
+        border-color: darkred;
+        background-color: rgb(204, 124, 226);
+
+    }
+
+
+    @media only screen and (max-width:460px) {
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url("/public/resu.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        nav {
+            height: 60px;
+            width: 100%;
+            text-align: start;
+            display: flex;
+            flex-direction: row-reverse;
+            top: 0px;
+            margin-left: -8px;
+            margin-top: -8px;
+        }
+
+        nav a {
+            color: rgb(204, 197, 197);
+        }
+
+        ul {
+            padding-top: 06px;
+            margin-left: -33px;
+        }
+
+    }
+</style>
+
 <body>
     <header>
         <nav>
@@ -18,12 +177,12 @@
     <main>
         <br><br><br>
         <h1>Hi, I'm <span class="name">ADARSH RAJ</span></h1>
-        <br>    
+        <br>
         <h2>Fronted developer</h2>
         <br>
         <span>
             <img src="" id="splash">
-            <img src="/public/file.png" height=400px alt="My pic" id="photo">
+            <img src="/ADARSH/assets/file.png" height=400px alt="My pic" id="photo">
         </span>
         <pre>
           I am a highly motivated and adaptable professional with a strong work ethic and a passion 
@@ -34,11 +193,13 @@
           meaningfully to the company's goals.
         </pre>
         <div id="allbutton">
-            <a href="//www.linkedin.com/in/adarsh-raj-7508a7345"target="_main"><button id="button1" style="width: 100px; height: 50px;">Hire Me</button></a>
-        <br><br>
+            <a href="//www.linkedin.com/in/adarsh-raj-7508a7345" target="_main"><button id="button1"
+                    style="width: 100px; height: 50px;">Hire Me</button></a>
+            <br><br>
             <a href=""><button id="button2" style="width: 100px; height: 50px;">Let's Talk</button>
         </div>
     </main>
-    
+
 </body>
+
 </html>
